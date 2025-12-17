@@ -7,6 +7,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhost", policy =>
+    {
+        //policy.WithOrigins("http://localhost:5173", "http://localhost:3000", "http://localhost:8080")
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -17,11 +29,42 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Use CORS
+app.UseCors("AllowLocalhost");
+
 var _products = ProductData.GetProducts().ToList();
 
-app.MapGet("/api/products", () =>
+app.MapGet("/api/products", (string? sortBy = null, string? order = "asc") =>
 {
-    return Results.Ok(_products);
+    var sorted = _products.AsEnumerable();
+    var isDescending = order?.ToLower() == "desc";
+
+    // Apply sorting
+    if (!string.IsNullOrEmpty(sortBy))
+    {
+        sorted = sortBy.ToLower() switch
+        {
+            "name" => isDescending
+                ? sorted.OrderByDescending(p => p.Name)
+                : sorted.OrderBy(p => p.Name),
+
+            "price" => isDescending
+                ? sorted.OrderByDescending(p => p.Price)
+                : sorted.OrderBy(p => p.Price),
+
+            "id" => isDescending
+                ? sorted.OrderByDescending(p => p.Id)
+                : sorted.OrderBy(p => p.Id),
+
+            "modifieddate" => isDescending
+                ? sorted.OrderByDescending(p => p.ModifiedDate)
+                : sorted.OrderBy(p => p.ModifiedDate),
+
+            _ => sorted
+        };
+    }
+
+    return Results.Ok(sorted.ToList());
 });
 
 app.MapGet("/api/products/{id}", (int id) =>

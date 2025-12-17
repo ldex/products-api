@@ -49,7 +49,26 @@ The API will be available at:
 GET /api/products
 ```
 
-**Response**: Returns a list of all products.
+**Query Parameters**:
+- `sortBy` (string, optional) - Sort products by field: `name`, `price`, `id`, or `modifieddate`
+- `order` (string, optional) - Sort order: `asc` (default) or `desc`
+
+**Examples**:
+```http
+# Get all products sorted by name
+GET /api/products?sortBy=name
+
+# Get products sorted by price in descending order
+GET /api/products?sortBy=price&order=desc
+
+# Get products sorted by modification date (ascending)
+GET /api/products?sortBy=modifieddate
+
+# Get products sorted by ID in descending order
+GET /api/products?sortBy=id&order=desc
+```
+
+**Response**: Returns a list of all products (optionally sorted).
 
 ### Get Product by ID
 
