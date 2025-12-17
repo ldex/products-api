@@ -64,3 +64,4 @@ C:\Users\Laurent\source\repos\products-api\obj\Debug\net10.0\swae.build.ex.cache
 C:\Users\Laurent\source\repos\products-api\obj\Debug\net10.0\ProductApi.csproj.Up2Date
 C:\Users\Laurent\source\repos\products-api\obj\Debug\net10.0\ProductApi.genruntimeconfig.cache
 C:\Users\Laurent\source\repos\products-api\obj\Debug\net10.0\ref\ProductApi.dll
+C:\Users\Laurent\source\repos\products-api\obj\Debug\net10.0\ProductApi.sourcelink.json
