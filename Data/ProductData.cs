@@ -16,7 +16,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-23)
                 },
                 new Product {
                     Id = 2,
@@ -26,7 +26,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587829191301-623ac7e21f5b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-49)
                 },
                 new Product {
                     Id = 3,
@@ -36,7 +36,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
                     Discontinued = true,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow.AddDays(-10)
+                    ModifiedDate = DateTime.UtcNow.AddDays(-48)
                 },
                 new Product {
                     Id = 4,
@@ -46,7 +46,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527721471640-3c679e0aadd3?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-47)
                 },
                 new Product {
                     Id = 5,
@@ -56,7 +56,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-46)
                 },
                 new Product {
                     Id = 6,
@@ -66,7 +66,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587984622291-43ba1818e32f?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
+                    ModifiedDate = DateTime.UtcNow.AddDays(-45)
                 },
                 new Product {
                     Id = 7,
@@ -76,7 +76,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow.AddDays(-3)
+                    ModifiedDate = DateTime.UtcNow.AddDays(-37)
                 },
                 new Product {
                     Id = 8,
@@ -86,7 +86,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1565636192335-14c46fa1120d?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-58)
                 },
                 new Product {
                     Id = 9,
@@ -96,7 +96,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-51)
                 },
                 new Product {
                     Id = 10,
@@ -106,7 +106,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587829191301-623ac7e21f5b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-11)
                 },
                 new Product {
                     Id = 11,
@@ -116,7 +116,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-12)
                 },
                 new Product {
                     Id = 12,
@@ -126,7 +126,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-34)
                 },
                 new Product {
                     Id = 13,
@@ -136,7 +136,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-57)
                 },
                 new Product {
                     Id = 14,
@@ -146,7 +146,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-54)
                 },
                 new Product {
                     Id = 15,
@@ -156,7 +156,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-33)
                 },
                 new Product {
                     Id = 16,
@@ -166,7 +166,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-32)
                 },
                 new Product {
                     Id = 17,
@@ -176,7 +176,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-4)
                 },
                 new Product {
                     Id = 18,
@@ -186,7 +186,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 19,
@@ -196,7 +196,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 20,
@@ -206,7 +206,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-13)
                 },
                 new Product {
                     Id = 21,
@@ -216,7 +216,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587829191301-623ac7e21f5b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-1)
                 },
                 new Product {
                     Id = 22,
@@ -226,7 +226,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-2)
                 },
                 new Product {
                     Id = 23,
@@ -236,7 +236,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-6)
                 },
                 new Product {
                     Id = 24,
@@ -246,7 +246,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-59)
                 },
                 new Product {
                     Id = 25,
@@ -256,7 +256,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-65)
                 },
                 new Product {
                     Id = 26,
@@ -266,7 +266,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-75)
                 },
                 new Product {
                     Id = 27,
@@ -276,7 +276,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-85)
                 },
                 new Product {
                     Id = 28,
@@ -286,7 +286,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-95)
                 },
                 new Product {
                     Id = 29,
@@ -296,7 +296,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-2)
                 },
                 new Product {
                     Id = 30,
@@ -306,7 +306,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-3)
                 },
                 new Product {
                     Id = 31,
@@ -316,7 +316,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587984622291-43ba1818e32f?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-4)
                 },
                 new Product {
                     Id = 32,
@@ -326,7 +326,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1565636192335-14c46fa1120d?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-6)
                 },
                 new Product {
                     Id = 33,
@@ -336,7 +336,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1565636192335-14c46fa1120d?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-35)
                 },
                 new Product {
                     Id = 34,
@@ -346,7 +346,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587829191301-623ac7e21f5b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-25)
                 },
                 new Product {
                     Id = 35,
@@ -356,7 +356,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527721471640-3c679e0aadd3?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-17)
                 },
                 new Product {
                     Id = 36,
@@ -366,7 +366,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-16)
                 },
                 new Product {
                     Id = 37,
@@ -376,7 +376,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-14)
                 },
                 new Product {
                     Id = 38,
@@ -386,7 +386,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-13)
                 },
                 new Product {
                     Id = 39,
@@ -396,7 +396,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1545269865-cbf461f8f9d0?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-8)
                 },
                 new Product {
                     Id = 40,
@@ -406,7 +406,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1589519160732-57fc498494f8?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 41,
@@ -416,7 +416,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1545269865-cbf461f8f9d0?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-9)
                 },
                 new Product {
                     Id = 42,
@@ -426,7 +426,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-8)
                 },
                 new Product {
                     Id = 43,
@@ -436,7 +436,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-3)
                 },
                 new Product {
                     Id = 44,
@@ -446,7 +446,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 45,
@@ -456,7 +456,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-51)
                 },
                 new Product {
                     Id = 46,
@@ -466,7 +466,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-33)
                 },
                 new Product {
                     Id = 47,
@@ -476,7 +476,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-16115327361c1f8d3e2f1e3d1f1e3d1f?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-57)
                 },
                 new Product {
                     Id = 48,
@@ -486,7 +486,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1611532736143-21e3a3f6c1b5?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 49,
@@ -496,7 +496,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1611532736121-1e3e7a8b3e1e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-7)
                 },
                 new Product {
                     Id = 50,
@@ -506,7 +506,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1611532736987-7f9d4c5de1e2?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-7)
                 },
                 new Product {
                     Id = 51,
@@ -516,7 +516,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1546321318-c3a86503cbae?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-1)
                 },
                 new Product {
                     Id = 52,
@@ -526,7 +526,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1565182999555-2174d92f521e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-115)
                 },
                 new Product {
                     Id = 53,
@@ -536,7 +536,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1565182999555-2174d92f521e?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-51)
                 },
                 new Product {
                     Id = 54,
@@ -546,7 +546,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-50)
                 },
                 new Product {
                     Id = 55,
@@ -556,7 +556,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-15)
                 },
                 new Product {
                     Id = 56,
@@ -566,7 +566,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-5)
                 },
                 new Product {
                     Id = 57,
@@ -576,7 +576,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = false,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-1)
                 },
                 new Product {
                     Id = 58,
@@ -586,7 +586,7 @@ namespace ProductApi.Data
                     ImageUrl = "https://images.unsplash.com/photo-1587829191301-623ac7e21f5b?w=500&h=500&fit=crop",
                     Discontinued = false,
                     FixedPrice = true,
-                    ModifiedDate = DateTime.UtcNow
+                    ModifiedDate = DateTime.UtcNow.AddDays(-6)
                 }
             };
         }

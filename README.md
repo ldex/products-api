@@ -38,8 +38,8 @@ dotnet run
 ```
 
 The API will be available at:
-- **HTTP**: `http://localhost:5000`
-- **HTTPS**: `https://localhost:5001`
+- **HTTP**: `http://localhost:5088`
+- **HTTPS**: `https://localhost:5088`
 
 ## API Endpoints
 
