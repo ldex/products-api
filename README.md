@@ -14,14 +14,14 @@ A lightweight ASP.NET Core 10.0 REST API for managing products. Built with minim
 ## Prerequisites
 
 - .NET 10.0 SDK or later
-- Visual Studio Code or Visual Studio 2022 (or any .NET IDE)
+- Visual Studio Code or Visual Studio 2026+
 
 ## Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ldex/products-api.git
 cd products-api
 ```
 
@@ -38,8 +38,7 @@ dotnet run
 ```
 
 The API will be available at:
-- **HTTP**: `http://localhost:5088`
-- **HTTPS**: `https://localhost:5088`
+- **HTTP**: `http://localhost:5088/api/products`
 
 ## API Endpoints
 
@@ -180,7 +179,7 @@ See `appsettings.json` for production configuration.
 When running in development mode, OpenAPI documentation is available at:
 
 ```
-https://localhost:5001/openapi/v1.json
+http://localhost:5088/openapi/v1.json
 ```
 
 ## Project Structure
@@ -199,29 +198,8 @@ products-api/
 └── README.md                # This file
 ```
 
-## Development
 
-### Using REST Client
-
-The `ProductApi.http` file contains sample requests for testing the API. If you have the VS Code REST Client extension installed, you can click "Send Request" on any request to test the endpoints directly.
-
-### Running Tests
-
-```bash
-dotnet test
-```
-
-## Troubleshooting
-
-### Port Already in Use
-
-If the default ports (5000/5001) are already in use, you can specify different ports:
-
-```bash
-dotnet run --urls "https://localhost:5002;http://localhost:5003"
-```
-
-### SSL Certificate Issues
+## SSL Certificate Issues
 
 On first run, you may need to trust the development certificate:
 
